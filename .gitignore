@@ -1,0 +1,7 @@
+cradential.py
+venv/
+__pycache__/
+*.pyc
+downloads/
+*_summary.json
+icpsr_browser_profile/
