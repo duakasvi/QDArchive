@@ -18,8 +18,8 @@ from playwright.sync_api import sync_playwright
 # OPTIONAL LOCAL CREDENTIAL IMPORT
 # =========================================================
 try:
-    from QDArchive.icpsr_utils.cradential import ICPSR_EMAIL as LOCAL_ICPSR_EMAIL  # type: ignore
-    from QDArchive.icpsr_utils.cradential import ICPSR_PASSWORD as LOCAL_ICPSR_PASSWORD  # type: ignore
+    from icpsr_utils.cradential import ICPSR_EMAIL as LOCAL_ICPSR_EMAIL  # type: ignore
+    from icpsr_utils.cradential import ICPSR_PASSWORD as LOCAL_ICPSR_PASSWORD  # type: ignore
 except Exception:
     LOCAL_ICPSR_EMAIL = ""
     LOCAL_ICPSR_PASSWORD = ""

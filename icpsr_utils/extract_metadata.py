@@ -1,8 +1,8 @@
 from typing import Any, Dict
 
-from QDArchive.icpsr_utils.datalumos_metadata_extractor import extract_datalumos_metadata
-from QDArchive.icpsr_utils.icpsr_metadata_extractor import extract_icpsr_metadata
-from QDArchive.icpsr_utils.openicpsr_metadata_extractor import extract_openicpsr_metadata
+from icpsr_utils.datalumos_metadata_extractor import extract_datalumos_metadata
+from icpsr_utils.icpsr_metadata_extractor import extract_icpsr_metadata
+from icpsr_utils.openicpsr_metadata_extractor import extract_openicpsr_metadata
 
 DEFAULT_SAVE_OUTPUT_JSON = False
 

@@ -15,7 +15,7 @@ from bs4 import BeautifulSoup, NavigableString, Tag
 from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
 from playwright.sync_api import sync_playwright
 
-from QDArchive.schemas.normalizers import (
+from schemas.normalizers import (
     bool_from_flag,
     canonicalize_doi,
     clean_html_list,
@@ -31,8 +31,8 @@ from QDArchive.schemas.normalizers import (
     strip_html_fragment,
     unique_dicts,
 )
-from QDArchive.schemas.unified_metadata import new_metadata_record
-from QDArchive.schemas.validators import annotate_record_with_validation
+from schemas.unified_metadata import new_metadata_record
+from schemas.validators import annotate_record_with_validation
 
 
 # =========================================================

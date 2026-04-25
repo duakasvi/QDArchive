@@ -3,13 +3,13 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional, Tuple
 
-from QDArchive.schemas.normalizers import (
+from schemas.normalizers import (
     canonicalize_doi,
     clean_list,
     clean_text,
     normalize_metadata_record,
 )
-from QDArchive.schemas.unified_metadata import new_metadata_record
+from schemas.unified_metadata import new_metadata_record
 
 
 MetadataRecord = Dict[str, Any]
